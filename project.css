@@ -1,0 +1,59 @@
+header img{
+    width: 120px;
+    float: left;
+    margin-right: 15px;
+}
+
+nav{
+    background-color: #BF571F;
+    padding: 7px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    align-self: center;
+    color: #dddddd;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+}
+
+main h2{
+    font-style: italic;
+}
+
+main {
+    padding-top: 10px;
+    background-color: #2C2C2C; /* Dark gray */
+    color: #FFFFFF; /* White text for contrast */
+    padding-bottom: 10px;
+    text-align: center;
+}
+main ul{
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+main img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input,textarea{
+    margin-bottom: .5em;
+}

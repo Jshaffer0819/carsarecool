@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="project.css">
+        <meta charset="utf-8">
+        <title>Cool Car Company</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        
+            .container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding: 20px;
+            }
+        
+            .video-container {
+              background: rgba(0, 0, 0, 0.3);
+              padding: 20px;
+              border-radius: 15px;
+              box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+              width: 60%;
+              height: 400px
+            }
+        
+            iframe, video {
+              width: 100%;
+              height: 400px;
+              border-radius: 10px;
+            }
+        
+            .button {
+              display: inline-block;
+              margin-top: 20px;
+              padding: 10px 20px;
+              background: rgba(255, 255, 255, 0.2);
+              border-radius: 8px;
+              text-decoration: none;
+              color: white;
+              font-weight: bold;
+              transition: 0.3s;
+            }
+        
+            .button:hover {
+              background: rgba(255, 255, 255, 0.4);
+            }
+        
+          </style>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="logo for website">
+            <h1>
+                Cool Car Company
+            </h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="sounds.html">Sounds</a>
+            <a href="featured.html">Featured</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+        
+            <main class="container"> 
+                <h1>Featured Car of the Month</h1>
+            
+                <h2>2024 Chevrolet Camaro ZL1</h2>
+                <p>The 2024 Camaro is a muscle car icon with modern performance and classic style. 
+                   This video gives you a closer look at the bold design and powerful engine options 
+                   that make this car a favorite among enthusiasts.</p>
+            
+                <!-- Video Section with Rounded Corners & Shadows -->
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/1ERTrTK-Rzs" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            
+                <p>From the aggressive front grille to the sculpted lines on the side, 
+                   the Camaro is built to turn heads. Watch the video above to experience its power in action.</p>
+            
+                <!-- Styled Button Link -->
+                <a href="index.html" class="button">⬅ Back to Home</a>
+            </main>
+            
+    </body>
+</html>
